@@ -10,6 +10,7 @@ class SwitchScreen extends StatefulWidget {
 
 class _SwitchScreenState extends State<SwitchScreen> {
   bool status = false;
+  bool status1 = false;
   int selection = 1;
   bool onSwitch = false;
 
@@ -35,6 +36,7 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
+                activeColor: Colors.blue,
                   value: status, onChanged: (of){
                 status = of!;
                 setState(() {
@@ -48,8 +50,8 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
-                  value: status, onChanged: (of){
-                status = of!;
+                  value: status1, onChanged: (of){
+                status1 = of!;
                 setState(() {
                 });
 
@@ -61,6 +63,7 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
+                  activeColor: Colors.blue,
                   value: status, onChanged: (of){
                 status = of!;
                 setState(() {
@@ -74,8 +77,8 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
-                  value: status, onChanged: (of){
-                status = of!;
+                  value: status1, onChanged: (of){
+                status1 = of!;
                 setState(() {
                 });
 
@@ -87,6 +90,7 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
+                  activeColor: Colors.blue,
                   value: status, onChanged: (of){
                 status = of!;
                 setState(() {
@@ -100,8 +104,8 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
-                  value: status, onChanged: (of){
-                status = of!;
+                  value: status1, onChanged: (of){
+                status1 = of!;
                 setState(() {
                 });
 
@@ -113,6 +117,7 @@ class _SwitchScreenState extends State<SwitchScreen> {
             children: [
               SizedBox(width: 30,),
               Checkbox(
+                  activeColor: Colors.blue,
                   value: status, onChanged: (of){
                 status = of!;
                 setState(() {
